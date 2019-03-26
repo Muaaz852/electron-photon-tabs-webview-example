@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+    <ph-window>
+        <!--&lt;!&ndash;Top header bar here&ndash;&gt;-->
+        <!--<tool-bar type="header">-->
+            <!--Toolbar Header-->
+        <!--</tool-bar>-->
+        <tab-group>
+            <tab-item data-view="#test-tab-1">
+                <button action="close"></button>
+                Test Tab 1
+            </tab-item>
+            <tab-item data-view="#test-tab-2">
+                <button action="close"></button>
+                Test Tab 2
+            </tab-item>
+            <tab-item data-view="#test-tab-3">
+                <button action="close"></button>
+                Test Tab 3
+            </tab-item>
+
+        </tab-group>
+        <!--Window content here-->
+        <window-content>
+            <webview id="test-tab-1" autosize style="display: none; min-width: 600px; min-height: 100%" src="https://www.github.com/">
+                Shit 1
+            </webview>
+            <webview id="test-tab-2" autosize style="display: none; min-width: 600px; min-height: 100%;" src="https://www.google.com/">
+                Shit 2
+            </webview>
+            <webview id="test-tab-3" autosize style="display: none; min-width: 600px; min-height: 100%;" src="https://www.soundcloud.com/">
+                Shit 3
+            </webview>
+        </window-content>
+    </ph-window>
+</body>
+</html>
