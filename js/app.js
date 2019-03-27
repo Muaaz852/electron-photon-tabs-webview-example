@@ -1,6 +1,6 @@
 // Require Photon
 // const Photon = require('./../');
-const Photon = require("E:\\PrOjEcTs\\Fiverr\\electron-photon-example\\node_modules\\electron-photon");
+const Photon = require("electron-photon");
 // Lop Photon instance
 console.log(Photon);
 
